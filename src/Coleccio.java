@@ -64,6 +64,7 @@ public class Coleccio {
         for (Figura figura : llistaFigures) {
             volum += figura.getDimensio().getVolumen();
         }
+        volum += 200;
         return volum;
     }
 }
